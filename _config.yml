@@ -5,6 +5,7 @@ paginate:            5
 
 # Build settings
 markdown:            kramdown
+remote_theme:        Millennial
 highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
