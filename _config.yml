@@ -15,8 +15,8 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: "Luca"
-description: "Digital Media artist Luca Tornato's portfolio "
+title: "Luca Tornato"
+description: "Digital Media art portfolio "
 author: "Luca Tornato"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
