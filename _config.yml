@@ -15,7 +15,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: "Luca Tornato"
+title: "Luca"
 description: "Digital Media artist Luca Tornato's portfolio "
 author: "Luca Tornato"
 
