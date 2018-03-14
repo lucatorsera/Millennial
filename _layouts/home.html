@@ -5,6 +5,8 @@ title: Home
 
 {% for post in paginator.posts %}
 
+<div id="setup_p5_sketch" style="height: 300px; position:relative;" ></div>
+
 <article>
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
