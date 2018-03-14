@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bettsing Started"
+title: "Bettsing Startled"
 author: "Paul Le"
 categories: documentation
 tags: [documentation,sample]
