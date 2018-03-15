@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
   var dx = mouseX - x;
   var dy = mouseY - y;
   angle1 = atan2(dy, dx);
