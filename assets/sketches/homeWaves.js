@@ -4,7 +4,7 @@ var noiseScale = 0.02;
 var posX, posY;
 var sum;
 var smoothness = 0.5;
-var scale = 5.0;
+var _scale = 5.0;
 var cor;
 var step = 10;
 
@@ -36,7 +36,7 @@ function draw() {
   }
   posY++;
   sum += (mic.getLevel() - sum) * smoothness;
-  posX = sum*(height/2)*scale;
+  posX = sum*(height/2)*_scale;
   
   if(posY > height) posY = 0.0;
   
