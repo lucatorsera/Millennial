@@ -26,6 +26,8 @@ function setup() {
 }
 
 function draw() {
+  cor = (random(255), random(255), random(255));
+  
   for (var y = 0; y < height; y++){
     var noiseVal = noise(posY*noiseScale, (posY + y)*noiseScale);
     stroke(cor);
