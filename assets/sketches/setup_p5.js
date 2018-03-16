@@ -9,8 +9,8 @@ function setup() {
   var divHeight = $("#setup_p5_sketch").height();
   var myCanvas = createCanvas(divWidth, divHeight);
   myCanvas.parent('setup_p5_sketch');
-  myCanvas.position(0, 0);
-  myCanvas.style('z-index', '-1');
+  //myCanvas.position(0, 0);
+  //myCanvas.style('z-index', '-1');
   strokeWeight(20.0);
   stroke(0, 100);
 }
