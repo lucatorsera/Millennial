@@ -25,8 +25,7 @@ function setup() {
 }
 
 function draw() {
-  background(random(255), random(255), random(255));
-  /*cor = (random(255), random(255), random(255));
+  cor = (random(255), random(255), random(255));
   
   for (var y = 0; y < height; y++){
     var noiseVal = noise(posY*noiseScale, (posY + y)*noiseScale);
@@ -40,7 +39,7 @@ function draw() {
   
   if(posY > height) posY = 0.0;
   
-  myDelay();*/
+  myDelay();
 }
 
 function myDelay() {
