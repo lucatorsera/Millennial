@@ -1,8 +1,9 @@
 var mic;
 
 var noiseScale = 0.02;
-var posX, posY;
-var sum;
+var posX = 0.0;
+var posY = 0.0;
+var sum = 0.0;
 var smoothness = 0.5;
 var _scale = 5.0;
 var cor;
@@ -17,8 +18,6 @@ function setup() {
   //myCanvas.position(0, 0);
   //myCanvas.style('z-index', '-1');
   
-  posX = 0.0;
-  posY = 0.0;
   background(255);
   
   mic = new p5.AudioIn();
@@ -32,7 +31,7 @@ function draw() {
     var noiseVal = noise(posY*noiseScale, (posY + y)*noiseScale);
     stroke(cor);
     line(width - (posX + noiseVal*80), y, width, y);
-    line(0, y, posX + noiseVal&80, y);
+    line(0, y, posX + noiseVal*80, y);
   }
   posY++;
   sum += (mic.getLevel() - sum) * smoothness;
