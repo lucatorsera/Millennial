@@ -1,3 +1,5 @@
+//TODO: an algorithm that adjust to the ambient sound volume
+
 var mic;
 
 var noiseScale = 0.02;
