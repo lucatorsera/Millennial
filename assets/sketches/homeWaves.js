@@ -6,7 +6,6 @@ var posY = 0.0;
 var sum = 0.0;
 var smoothness = 0.5;
 var _scale = 5.0;
-var cor;
 var step = 10;
 
 function setup() {
@@ -25,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  cor = color((random(255), random(255), random(255)));
+  var cor = color((random(255), random(255), random(255)));
   
   for (var y = 0; y < height; y++){
     var noiseVal = noise(posY*noiseScale, (posY + y)*noiseScale);
