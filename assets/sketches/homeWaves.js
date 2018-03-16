@@ -7,6 +7,7 @@ var sum = 0.0;
 var smoothness = 0.5;
 var _scale = 5.0;
 var step = 10;
+var offset = 30.0;
 
 function setup() {
   // find the size of the underlying div
@@ -29,8 +30,8 @@ function draw() {
   for (var y = 0; y < height; y++){
     var noiseVal = noise(posY*noiseScale, (posY + y)*noiseScale);
     stroke(cor);
-    line(width - (posX + noiseVal*80), y, width, y);
-    line(0, y, posX + noiseVal*80, y);
+    line(width - (posX + noiseVal*80) + offset, y, width + offset, y);
+    line(0 - offset, y, posX + noiseVal*80 - offset, y);
   }
   posY++;
   sum += (mic.getLevel() - sum) * smoothness;
