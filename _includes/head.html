@@ -41,7 +41,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/{{ p5_version }}/{{ lib }}.js"></script>
       {% endfor %}
     {% endif %}
-
+  
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  
   {% if page.sketches %}
     {% for sketch in page.sketches %}
       <script type="text/javascript" src='/assets/sketches/{{ sketch }}.js'></script>
