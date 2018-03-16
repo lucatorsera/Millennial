@@ -2,7 +2,7 @@ var mic;
 
 var noiseScale = 0.02;
 var posX, posY;
-var var sum;
+var sum;
 var smoothness = 0.5;
 var scale = 5.0;
 var cor;
