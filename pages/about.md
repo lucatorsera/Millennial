@@ -3,4 +3,8 @@ layout: misc
 title: About
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
+I am Luca. As I am very lazy, I like to program machines to draw cool stuffs for me. I spent some time studying Computer and Electric Engineering, but could not find peace there. Instead, I went on a journey to try and do what I want to do, assist creativity with technology, as a Digital Media Artist. 
+
+If you have a cool idea and you wanna collab or want to request a service, feel free to <a href="https://lucatorsera.github.io/pages/contact.html" target="_blank">contact me</a>
+
+As for now, I am based in Gothenburg, Sweden.
