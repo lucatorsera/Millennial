@@ -31,6 +31,9 @@ function setup() {
 
 function draw() {
   background(255);
+  if(frameRate < 20){
+    noLoop();
+  }
   
   for(var i = posX.length - 1; i >= 0; i--){
     for(var y = 0; y < height; y++){
