@@ -4,7 +4,7 @@ title: "Welcome to my portfolio"
 author: "Luca Tornato"
 categories: documentation
 tags: [opening page]
-image: img_comp1.jpg
+image: comp1.jpg
 ---
 
 Welcome to my portfolio! Here you can find interesting information about me, stuff I did and my contact info. Though this portfolio is
