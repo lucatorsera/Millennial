@@ -4,8 +4,8 @@ var noiseScale = 0.02;
 var posY = 0.0;
 var posX = [];
 var cor = [];
-var NUM_STRIPS = 6;
-var speed = 0.7;
+var NUM_STRIPS = 5;
+var speed = 1.0;
 
 
 function setup() {
@@ -26,7 +26,6 @@ function setup() {
   }
 
 
-  background(255);
   
 }
 
@@ -43,7 +42,9 @@ function draw() {
   }
 
   posY+=speed;
-  
+  if(posY > height){
+    posY = 0.0;
+  }
 }
 
 // when the window is resized the canvas is resized accordingly
