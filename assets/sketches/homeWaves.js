@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   background(255);
-  if(frameRate < 20){
+  if(frameRate() < 5 && frameCount > 10){
     noLoop();
   }
   
