@@ -1,10 +1,11 @@
 .footer {
-  background: white;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 1;
   color: $brand-color;
   text-align: center;
   min-height: 56px;
   line-height: 45px;
-  width: $container-width;
+  /*width: $container-width;*/
 }
 .footer a {
   color: $brand-color;
@@ -13,7 +14,8 @@
 }
 @media (max-width: $container-width) {
   .footer {
-    background: white;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
     color: $brand-color;
     text-align: center;
     min-height: 56px;

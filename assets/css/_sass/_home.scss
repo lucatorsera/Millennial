@@ -1,5 +1,5 @@
 .featured-posts {
-  height: 400px;
+  height: 33vh;
   margin: 5px 10px 10px;
   padding: 10px;
   background-position: center;
@@ -13,9 +13,16 @@
    letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
-   margin-top: 320px;
+   padding: 60px 10px 50px 10px;
+   /*margin-top: 50px;*/
+   opacity: 0;
 }
+
+.featured-posts h2 span:hover {
+  opacity: 1;
+}
+
+
 .featured-posts span a {
   color: white;
 }
@@ -48,4 +55,14 @@
 }
 .pagination-active:hover {
   background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .featured-posts {
+    height: 20vh;
+  }
+
+  .featured-posts h2 span {
+    opacity: 0;
+  }
 }

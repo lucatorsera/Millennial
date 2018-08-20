@@ -1,7 +1,9 @@
 ---
 layout: misc
 title: About
+image: propic.jpg
 ---
+
 
 I am Luca. As I am a very "lazy artist", I like to program machines to draw cool stuff for me. I spent some time studying Computer and Electric Engineering, but could not find peace there. Instead, I went on a journey to try and do what I want to do, feed creativity with technology, as a Digital Media Artist. 
 

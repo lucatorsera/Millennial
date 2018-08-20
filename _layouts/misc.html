@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="page-title misc-content">
   <h1>
     {{ page.title }}
@@ -11,4 +12,30 @@ layout: default
   {{ content }}
 </article>
 
+
 </div>
+
+{% if page.title == "About" %}
+<script>
+	// media query event handler
+	if (matchMedia) {
+	  const mq = window.matchMedia("(max-width: 768px)");
+	  mq.addListener(WidthChange);
+	  WidthChange(mq);
+	}
+
+	// media query change
+	function WidthChange(mq) {
+	  if (mq.matches) {
+	   	document.getElementsByClassName("posts-wrapper")[0].style.gridTemplateColumns = "1fr";
+	  } else {
+	    document.getElementsByClassName("posts-wrapper")[0].style.gridTemplateColumns = "1fr 1fr";
+	  }
+	}
+</script>
+
+<article>
+	<img src="{{ site.github.url }}/assets/img/{{ page.image }}" style="width: 80%; height: 80%; ">
+</article>	
+
+{% endif %}
