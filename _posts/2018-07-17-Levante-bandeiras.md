@@ -18,7 +18,7 @@ Diversity is an increasingly explored concept and has become more clear that it 
 
 In another way, there is a huge importance in the unity of this diversity for a common good. Even though there may be lots of points of view, likes and identities within movements like LGBTQIA+, it's important that everybody gathers in order to obtain rights and visibility. 
 
-"Levante", in portuguese means rebellion, insurgency. Bandeiras is the plural of flags. That being said, Levante (bandeiras) is an act of choosing the side of support rather than opression, as the name, in a loose translation, means "put up flags".
+"Levante" in portuguese means rebellion, insurgency. Bandeiras is the plural of flags. That being said, Levante (bandeiras) is an act of choosing the side of support rather than opression, as the name, in a loose translation, means "put up flags".
 
 This project conveys to present this discussion between total freedom and unity for a goal. This is represented through the projection of random geometric forms in different colors, shapes and sizes. Eventually its randomness converges to an specific pattern of colors, based on different LGBTQIA+ flags. The size, shape and position of the forms remain random, but the colors become more defined in order to create the necessary visibility.
 
