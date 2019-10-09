@@ -19,5 +19,8 @@ Some chaotic systems, called Strange Attractors, have a fractal and aesthetic pr
 what is real, felt and seen to what is deterministic and mathematical. This occurs via two mediums: a short film - looped with a Raspberry Pi 0 on a CRT TV - and an oscilloscope. The film is an artistic depiction of chaos captured on camera. The oscilloscope (a device used to measure and plot the waveform of electronic signals) displays examples of chaotic systems with slight variations of its initial conditions, using Ted Davis' amazing Processing Library [_XYscope_](http://teddavis.org/xyscope/) on a Raspberry Pi.
 
 
+<iframe src="https://player.vimeo.com/video/365251233" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/365251233">chaoScope</a> from <a href="https://vimeo.com/user87436800">Luca Tornato Serafini</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 # Exhibitions
 * Aalborg Surreal, 2019
